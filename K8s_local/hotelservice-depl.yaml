@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+    name: hotels-depl
+spec:
+    replicas: 1
+    selector: 
+        matchLabels: 
+            app: hotelservice
+    template: 
+        metadata:
+            labels:
+                app: hotelservice
+        spec: 
+            containers: 
+                - name: hotelservice
+                  image: rekkarten/hotelservice
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: hotels-clusterip-srv
+spec: 
+    type: ClusterIP
+    selector: 
+        app: hotelservice
+    ports:
+      - name: hotelservice
+        protocol: TCP
+        port: 80
+        targetPort: 80

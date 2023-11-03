@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{E3233C07-E199-4EAA-A242-B2FB6002EB01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K8s", "K8s\K8s.csproj", "{9322F592-10F7-49E8-8753-EF533133B227}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelService", "HotelService\HotelService.csproj", "{A23B8200-018C-4EF3-8AE5-59C6031627EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingService", "BookingService\BookingService.csproj", "{414C0608-C487-445C-A626-A32821C79FDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K8s_local", "K8s_local\K8s_local.csproj", "{D738B7A6-C6C2-4322-9161-2D6E06386DBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService", "PaymentService\PaymentService.csproj", "{CE1E973F-6153-4AB6-95B2-135066C345B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThumbnailProcessor", "ThumbnailProcessor\ThumbnailProcessor.csproj", "{161E60F9-2FBD-4A22-9B7E-CCEB3C4448CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3233C07-E199-4EAA-A242-B2FB6002EB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3233C07-E199-4EAA-A242-B2FB6002EB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3233C07-E199-4EAA-A242-B2FB6002EB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3233C07-E199-4EAA-A242-B2FB6002EB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9322F592-10F7-49E8-8753-EF533133B227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9322F592-10F7-49E8-8753-EF533133B227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9322F592-10F7-49E8-8753-EF533133B227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9322F592-10F7-49E8-8753-EF533133B227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23B8200-018C-4EF3-8AE5-59C6031627EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23B8200-018C-4EF3-8AE5-59C6031627EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23B8200-018C-4EF3-8AE5-59C6031627EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23B8200-018C-4EF3-8AE5-59C6031627EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414C0608-C487-445C-A626-A32821C79FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414C0608-C487-445C-A626-A32821C79FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414C0608-C487-445C-A626-A32821C79FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414C0608-C487-445C-A626-A32821C79FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D738B7A6-C6C2-4322-9161-2D6E06386DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D738B7A6-C6C2-4322-9161-2D6E06386DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D738B7A6-C6C2-4322-9161-2D6E06386DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D738B7A6-C6C2-4322-9161-2D6E06386DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1E973F-6153-4AB6-95B2-135066C345B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1E973F-6153-4AB6-95B2-135066C345B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1E973F-6153-4AB6-95B2-135066C345B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1E973F-6153-4AB6-95B2-135066C345B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161E60F9-2FBD-4A22-9B7E-CCEB3C4448CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161E60F9-2FBD-4A22-9B7E-CCEB3C4448CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161E60F9-2FBD-4A22-9B7E-CCEB3C4448CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161E60F9-2FBD-4A22-9B7E-CCEB3C4448CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FDF3B8D-FC4A-43D8-BF0C-AB5FE77212CF}
+	EndGlobalSection
+EndGlobal

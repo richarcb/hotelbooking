@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ThumbnailProcessor": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7189"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30102,
+      "useSSL": false
+    }
+  }
+}
